@@ -1,0 +1,72 @@
+@use '../../Sass/Styles.scss' as g;
+
+.mint-window {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  color: g.$text-color-light;
+  margin: 1em 0;
+
+  img {
+    max-width: 100%;
+  }
+
+  .nft-info {
+    width: 90%;
+    font-weight: 500;
+    padding: 1em 0;
+
+    ul {
+      list-style: square;
+      margin: 0.5em 0;
+      padding-left: 1.25em;
+    }
+  }
+
+  .nft-balance {
+    width: 90%;
+    background-color: g.$div-bg-color-dark;
+    font-size: 2em;
+    font-weight: 200;
+    color: g.$primary-color;
+    border-radius: 15px;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .mint-btn {
+    width: 90%;
+    height: 5em;
+    border-radius: 15px;
+    padding: 0;
+
+    ul {
+      list-style: none;
+      line-height: 2em;
+      display: grid;
+      place-items: center;
+      margin: 0;
+      padding: 0.25em;
+
+      li {
+        font-size: 1.5em;
+        font-weight: 800;
+
+        span {
+          font-size: 0.5em;
+        }
+      }
+    }
+    .isLoading {
+      display: none;
+    }
+  }
+}
+.ant-modal-close {
+  color: g.$text-color-light;
+
+  &:hover {
+    color: g.$primary-color;
+  }
+}

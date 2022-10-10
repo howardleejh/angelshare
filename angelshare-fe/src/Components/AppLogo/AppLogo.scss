@@ -1,0 +1,15 @@
+@use '../../Sass/Styles.scss' as g;
+
+#org-logo {
+  width: 28em;
+
+  @media screen and (max-width: 600px) {
+    width: 20em;
+  }
+}
+
+#logo-title {
+  font-size: 2em;
+  color: g.$text-color-light;
+  letter-spacing: 0.2em;
+}

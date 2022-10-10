@@ -1,0 +1,16 @@
+@use '../../Sass/Styles.scss' as g;
+
+.menu-overlay {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba($color: #000000, $alpha: 0.9);
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  display: grid;
+  place-items: center;
+
+  h1 {
+    color: g.$primary-color;
+  }
+}

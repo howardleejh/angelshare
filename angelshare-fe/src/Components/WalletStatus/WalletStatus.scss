@@ -1,0 +1,45 @@
+@use '../../Sass/Styles.scss' as g;
+
+.wallet-status {
+  min-width: 23em;
+  position: relative;
+  margin: 2em 0;
+
+  h3 {
+    color: g.$primary-color;
+    font-size: 1.25em;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  #balance {
+    background-color: g.$primary-color;
+    width: 45%;
+    height: 3.5em;
+    border-radius: 50px;
+    position: absolute;
+    left: 0;
+    display: grid;
+    place-items: center;
+
+    h3 {
+      color: g.$text-color-light;
+    }
+  }
+
+  #address {
+    background-color: g.$div-bg-color-dark;
+    width: 100%;
+    height: 3.5em;
+    border-radius: 50px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    h3 {
+      position: absolute;
+      right: 12%;
+    }
+  }
+}

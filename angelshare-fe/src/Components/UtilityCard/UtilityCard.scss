@@ -1,0 +1,42 @@
+@use '../../Sass/Styles.scss' as g;
+
+.utility-card {
+  width: 20em;
+  height: 25em;
+  border-radius: 15px;
+  margin: 2em;
+  transition: 0.2s ease-out;
+
+  &:hover {
+    transform: perspective(1px) scale(1.05);
+  }
+
+  .utility-card-content {
+    height: 100%;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    cursor: pointer;
+    position: relative;
+
+    p {
+      font-size: 1.5em;
+      font-weight: 700;
+      color: g.$text-color-light;
+      margin: 5em 1em;
+      position: absolute;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .utility-card {
+    width: 18em;
+    height: 23em;
+
+    .utility-card-content {
+      p {
+        font-size: 1.25em;
+        margin: 7em 1em;
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+@use '../../Sass/Styles.scss' as g;
+
+.countdown-container {
+  margin: 2em 0;
+
+  .countdown-timer {
+    .countdown-desc {
+      font-size: 1.5em;
+      margin: 1em;
+    }
+
+    .countdown-timer-box {
+      width: 7em;
+      background-color: g.$div-bg-color-dark;
+      border-radius: 15px;
+      display: inline-block;
+      margin: 0.1em;
+      padding: 1.5em;
+
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        h2,
+        h6 {
+          margin: 0;
+        }
+
+        h2 {
+          color: g.$primary-color;
+        }
+
+        h6 {
+          color: g.$primary-color-light;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}

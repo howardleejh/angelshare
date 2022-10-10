@@ -1,0 +1,28 @@
+@use '../../Sass/Styles.scss' as g;
+
+#connect-btn {
+  width: 20em;
+  height: 4em;
+  border-radius: 12px;
+  background-color: g.$div-bg-color-dark;
+  border: none;
+  transition: all 0.2s ease-in-out;
+
+  p {
+    font-weight: 700;
+    margin: 0;
+  }
+
+  #btn-prefix {
+    width: 2em;
+    margin-right: 1em;
+  }
+  &:hover {
+    color: g.$primary-color;
+    border: 1px solid g.$primary-color-light;
+    transform: scale(1.02);
+  }
+}
+.no-hover {
+  pointer-events: none;
+}

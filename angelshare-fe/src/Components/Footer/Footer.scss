@@ -1,0 +1,12 @@
+@use '../../Sass/Styles.scss' as g;
+
+.footer {
+  height: 2.5em;
+  display: grid;
+  place-items: center;
+
+  h5 {
+    color: g.$text-color-light;
+    margin: 0;
+  }
+}

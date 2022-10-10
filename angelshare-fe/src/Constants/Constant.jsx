@@ -1,0 +1,1 @@
+export const NFTMINTADDRESS = '0xc580b8b9b7961d76aa481aac3737e4fa4ee6430a'

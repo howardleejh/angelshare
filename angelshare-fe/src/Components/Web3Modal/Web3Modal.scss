@@ -1,0 +1,17 @@
+@use '../../Sass/Styles.scss' as g;
+
+.mint-modal {
+  .ant-modal-content {
+    min-height: 35em;
+    background-color: g.$bg-color-dark;
+    border-radius: 15px;
+    padding: 2em 0;
+  }
+
+  .mint-wrapper {
+    min-height: 25em;
+    display: grid;
+    place-items: center;
+    overflow: auto;
+  }
+}

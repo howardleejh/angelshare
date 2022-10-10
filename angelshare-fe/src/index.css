@@ -1,0 +1,120 @@
+body {
+  background-color: black;
+  font-size: 16px;
+  font-family: 'SemplicitaBold', 'SemplicitaSemiBold', 'SemplicitaMedium',
+    'SemplicitaRegular', 'Josefin Sans', sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-overflow-scrolling: touch;
+
+  -moz-font-feature-settings: 'kern' 1;
+  -ms-font-feature-settings: 'kern' 1;
+  -o-font-feature-settings: 'kern' 1;
+  -webkit-font-feature-settings: 'kern' 1;
+  font-feature-settings: 'kern' 1;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'SemplicitaBold', 'Josefin Sans', sans-serif;
+  font-weight: 900;
+}
+
+h4,
+h5 {
+  font-family: 'SemplicitaSemiBold', 'Josefin Sans', sans-serif;
+  font-weight: 700;
+}
+
+h6 {
+  font-family: 'SemplicitaMedium', 'Josefin Sans', sans-serif;
+  font-weight: 300;
+}
+
+p {
+  font-family: 'SemplicitaRegular', 'Josefin Sans', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'SemplicitaBoldItalic';
+  font-style: italic;
+  src: local('Semplicita_Pro_Bold_Italic'),
+    url('./Assets/Fonts/Semplicita_Pro_Bold_Italic.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'SemplicitaBold';
+  font-style: normal;
+  src: local('Semplicita_Pro_Bold'),
+    url('./Assets/Fonts/Semplicita_Pro_Bold.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'SemplicitaItalic';
+  font-style: italic;
+  src: local('Semplicita_Pro_Italic'),
+    url('./Assets/Fonts/Semplicita_Pro_Italic.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'SemplicitaLightItalic';
+  font-style: italic;
+  src: local('Semplicita_Pro_Light_Italic'),
+    url('./Assets/Fonts/Semplicita_Pro_Light_Italic.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'SemplicitaLight';
+  font-style: normal;
+  src: local('Semplicita_Pro_Light'),
+    url('./Assets/Fonts/Semplicita_Pro_Light.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'SemplicitaMediumItalic';
+  font-style: italic;
+  src: local('Semplicita_Pro_Medium_Italic'),
+    url('./Assets/Fonts/Semplicita_Pro_Medium_Italic.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'SemplicitaMedium';
+  font-style: normal;
+  src: local('Semplicita_Pro_Medium'),
+    url('./Assets/Fonts/Semplicita_Pro_Medium.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'SemplicitaRegular';
+  font-style: normal;
+  src: local('Semplicita_Pro_Regular'),
+    url('./Assets/Fonts/Semplicita_Pro_Regular.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'SemplicitaSemiBoldItalic';
+  font-style: italic;
+  src: local('Semplicita_Pro_SemiBold_Italic'),
+    url('./Assets/Fonts/Semplicita_Pro_SemiBold_Italic.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'SemplicitaSemiBold';
+  font-style: normal;
+  src: local('Semplicita_Pro_SemiBold'),
+    url('./Assets/Fonts/Semplicita_Pro_SemiBold.otf') format('otf');
+}

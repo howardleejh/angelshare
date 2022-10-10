@@ -1,0 +1,44 @@
+@use '../../Sass/Styles.scss' as g;
+
+.description-container {
+  margin: 8em 0;
+  display: grid;
+  place-items: center;
+
+  #desc-video {
+    width: 15em;
+    margin: 2em;
+  }
+
+  .description-text {
+    text-align: start;
+    margin: 2em;
+
+    h1 {
+      color: g.$text-color-light;
+    }
+
+    p {
+      font-size: 1.25em;
+      margin: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .description-container {
+    margin: 2em 0;
+
+    .description-text {
+      h1 {
+        font-size: 1.5em;
+        text-align: center;
+      }
+
+      p {
+        font-size: 1em;
+        text-align: justify;
+      }
+    }
+  }
+}

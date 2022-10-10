@@ -1,0 +1,62 @@
+.profile-details {
+  width: 100%;
+  background-color: rgb(20, 20, 20);
+  padding: 2em;
+  border-radius: 15px;
+
+  .profile-details-header {
+    margin: 0 0 1em 0;
+  }
+
+  label,
+  input {
+    display: flex;
+    text-align: start;
+  }
+
+  label {
+    color: grey;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+  }
+
+  input {
+    width: 75%;
+    height: 2.5em;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    color: wheat;
+    font-size: large;
+  }
+
+  p {
+    text-align: left;
+    color: red;
+  }
+
+  .btn-wrapper {
+    margin: 1em;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  button {
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .profile-details {
+    input {
+      width: 100%;
+    }
+
+    .btn-wrapper {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

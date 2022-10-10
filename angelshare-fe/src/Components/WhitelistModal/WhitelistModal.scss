@@ -1,0 +1,26 @@
+@use '../../Sass/Styles.scss' as g;
+
+.whitelist-modal {
+  width: 65vw;
+  display: grid;
+  place-items: center;
+
+  svg {
+    color: g.$text-color-light;
+  }
+
+  .ant-modal-content {
+    color: g.$text-color-light;
+    border-radius: 15px;
+    background-color: rgb(31, 31, 31);
+    padding: 2em;
+
+    .ant-form-item-label > label {
+      color: g.$text-color-light;
+    }
+
+    h1 {
+      color: g.$text-color-light;
+    }
+  }
+}
